@@ -41,7 +41,7 @@ const SplashIntro: React.FC = () => {
               </Link>
               <Link
                 className="font-bold underline underline-offset-2 decoration-white decoration-[1px] "
-                href=""
+                href="/#history"
               >
                 History
               </Link>
