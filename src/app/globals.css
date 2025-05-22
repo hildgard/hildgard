@@ -27,6 +27,26 @@
     }
   }
 }
+.main-container {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* For medium screens (md breakpoint) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .main-container {
+    width: 65%;
+    max-width: 100%;
+  }
+}
+/* For large screens (lg breakpoint) */
+@media (min-width: 1025px) {
+  .main-container {
+    width: 50%;
+    max-width: 1080px;
+  }
+}
 .intro-wrapper {
   background: url(/grapesonvine.jpg);
   background-size: cover;

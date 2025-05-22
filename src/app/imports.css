@@ -32,7 +32,7 @@
 }
 
 :root {
-  --color-primary-hildgard: #580a24;
+  --color-primary-hilgard: #580a24;
   --primary-font: rgba(31, 31, 31, 0.99);
   --secondary-font: rgba(31, 31, 31, 0.8);
   --tertiary-font: rgba(31, 31, 31, 0.4);
@@ -44,5 +44,5 @@
   --color-midnight: #121063;
   --color-tahiti: #3ab7bf;
   --color-bermuda: #78dcca;
-  --color-hildgard: #580a24;
+  --color-hilgard: #580a24;
 }
