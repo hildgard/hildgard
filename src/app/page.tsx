@@ -1,4 +1,5 @@
 import SplashAbout from "./splashAbout";
+import SplashContact from "./splashContact";
 import SplashHistory from "./splashHistory";
 import SplashIntro from "./splashIntro";
 import SplashPurchase from "./splashPurchase";
@@ -10,6 +11,7 @@ export default function Home() {
       <SplashAbout />
       <SplashPurchase />
       <SplashHistory />
+      <SplashContact />
     </main>
   );
 }

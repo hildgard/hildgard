@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const SplashIntro: React.FC = () => {
   return (
-    <div className="intro-wrapper h-[100vh]">
+    <div className="intro-wrapper h-screen">
       <div className="container">
-        <div className="w-full md:w-1/2 xl:w-1/3 h-[85vh] flex flex-col justify-between bg-hilgard splash-red">
+        <div className="w-full sm:w-2/3 lg:w-4/9 h-[85vh] flex flex-col justify-between bg-hilgard splash-red">
           <div className="mt-auto p-12 text-white">
             <p className="text-md italic">Introducing</p>
             <Image
@@ -40,10 +40,16 @@ const SplashIntro: React.FC = () => {
                 Purchasing
               </Link>
               <Link
-                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] "
+                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] me-4"
                 href="/#history"
               >
                 History
+              </Link>
+              <Link
+                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] "
+                href="/#contact"
+              >
+                Contact
               </Link>
             </nav>
           </div>

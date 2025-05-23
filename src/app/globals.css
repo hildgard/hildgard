@@ -2,6 +2,9 @@
 @import "./typography.css";
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
 .container {
   padding: 0;
   width: 94%;
