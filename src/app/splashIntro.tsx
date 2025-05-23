@@ -5,13 +5,23 @@ const SplashIntro: React.FC = () => {
   return (
     <div className="intro-wrapper h-screen">
       <div className="container">
-        <div className="w-full sm:w-2/3 lg:w-4/9 h-[85vh] flex flex-col justify-between bg-hilgard splash-red">
+        <div className="w-full sm:w-2/3 lg:w-4/10 h-[85vh] flex flex-col justify-between bg-hilgard splash-red">
+          <div className="p-12">
+            <Image
+              width={72}
+              height={73}
+              alt={"Pencil image of a grape leaf"}
+              src="./grapeleaf.svg"
+            />
+          </div>
+
           <div className="mt-auto p-12 text-white">
-            <p className="text-md italic">Introducing</p>
+            <p className="text-xl italic">Introducing</p>
             <Image
               src="./hilgard631-light.svg"
               width={300}
               height={67}
+              className="mb-4"
               alt={"Hilgard631 Logo"}
             />
 
