@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "https://hilgard631.com/public/thumbnail.jpg",
         width: 1200,
         height: 630,
-        alt: "Hilgard631 Wine Bottles",
+        alt: "Hilgard631",
       },
     ],
     type: "website",

@@ -3,16 +3,16 @@ import Image from "next/image";
 const SplashAbout: React.FC = () => {
   return (
     <div className="main-container">
-      <div className="pt-16 pb-36">
-        <div className="flex gap-5">
-          <div className="w-1/3 flex flex-col text-left">
+      <div className="pt-8 pb-24">
+        <div className="flex flex-col gap-5 md:flex-row">
+          <div className="w-full md:w-1/3">
             <div id="history">
               <h1 className="text-2xl text-hilgard">
                 Positioning Aggies as Leaders in the Wine Industry
               </h1>
             </div>
           </div>
-          <div className="w-2/3">
+          <div className="w-full md:w-2/3">
             <p>
               Both the UC Davis V&E undergraduate and graduate degrees equip
               students with the scientific foundation of winemaking, combined
@@ -44,9 +44,9 @@ const SplashAbout: React.FC = () => {
           </div>
         </div>
         <p className="text-sm opacity-75">Photo Caption here:</p>
-        <div className="flex gap-5">
-          <div className="w-1/3 flex"></div>
-          <div className="w-2/3">
+        <div className="flex flex-col gap-5 md:flex-row">
+          <div className="w-full md:w-1/3 flex"></div>
+          <div className="w-full md:w-2/3">
             <p>
               The department’s commitment to nurturing the next generation of
               wine industry experts is most evident in the VEN 127L:

@@ -4,7 +4,7 @@ const SplashContact: React.FC = () => {
       <div
         id="contact"
         className="relative w-full"
-        style={{ paddingTop: "175%" }}
+        style={{ paddingTop: "200%" }}
       >
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSd-CUmTm1iWO1wFhce7wIi1-RGxYp2dtnp99kzdYaPTc3sFIg/viewform?embedded=true"

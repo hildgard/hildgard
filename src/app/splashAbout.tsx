@@ -6,23 +6,25 @@ const SplashAbout: React.FC = () => {
     <div className="bg-hilgard text-white">
       <div className="main-container">
         <div className="pt-16 pb-24">
-          <div className="flex gap-5">
-            <div className="w-1/3 flex flex-col text-left">
+          {/* ABOUT SECTION */}
+          <div className="flex flex-col gap-5 md:flex-row">
+            <div className="w-full md:w-1/3 flex flex-col text-left">
               <div id="about">
                 <p className="text-md italic text-sm">
                   Leaders in the Wine Industry
                 </p>
                 <h1 className="text-2xl">About Hilgard</h1>
               </div>
-
-              <Link
-                className="mt-auto font-bold underline underline-offset-2 decoration-white decoration-[1px]"
-                href=""
-              >
-                Learn more about UC Davis V&E
-              </Link>
+              <div className="mt-auto">
+                <Link
+                  className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
+                  href=""
+                >
+                  More on UC Davis V&E
+                </Link>
+              </div>
             </div>
-            <div className="w-2/3">
+            <div className="w-full md:w-2/3">
               <p>
                 The name Hilgard631 pays tribute to Eugene Hilgard, the
                 pioneering agricultural professor who established the University
@@ -45,19 +47,24 @@ const SplashAbout: React.FC = () => {
               </p>
             </div>
           </div>
+
+          {/* IMAGE 1 */}
           <div className="flex mb-5 mt-12">
             <div className="w-full">
               <Image src={"./ph1.jpg"} width={1600} height={818} alt={""} />
             </div>
           </div>
-          <div className="flex gap-5">
-            <div className="w-1/3">
+
+          {/* IMAGE 2 + 3 */}
+          <div className="flex flex-col gap-5 md:flex-row">
+            <div className="w-full md:w-1/3">
               <Image src={"./ph2.jpg"} width={528} height={776} alt={""} />
             </div>
-            <div className="w-2/3">
+            <div className="w-full md:w-2/3">
               <Image src={"./ph3.jpg"} width={1076} height={776} alt={""} />
             </div>
           </div>
+
           <p className="text-sm opacity-75">Photo Caption here:</p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MapEmbed from "./mapEmbed";
 
 const SplashPurchase: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const SplashPurchase: React.FC = () => {
         </div>
         <div className="flex gap-5">
           <div className="w-1/2">
-            <div className="pb-16">
+            <div className="pb-8">
               <address
                 className="not-italic text-lg border-l-4 border-hilgard ps-4"
                 itemScope
@@ -41,14 +42,7 @@ const SplashPurchase: React.FC = () => {
             </div>
           </div>
           <div className="w-1/2">
-            <a
-              className="text-hilgard underline"
-              href="https://maps.google.com/?q=631+Hilgard+Rd+Davis+CA+95616"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Map cutout link thing here
-            </a>
+            <MapEmbed />
           </div>
         </div>
         <div className="flex pt-16 pb-4 mb-16 gap-5">

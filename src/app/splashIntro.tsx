@@ -38,26 +38,26 @@ const SplashIntro: React.FC = () => {
             <br />
             <nav>
               <Link
-                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] "
+                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
                 href="/#about"
               >
                 About
               </Link>
               <Link
-                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] mx-4"
+                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 mx-4"
                 href="/#purchase"
               >
                 Purchasing
               </Link>
               <Link
-                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] me-4"
+                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 me-4"
                 href="/#history"
               >
                 History
               </Link>
               <Link
-                className="font-bold underline underline-offset-2 decoration-white decoration-[1px] "
-                href="/#contact"
+                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 "
+                href="https://wineserver.ucdavis.edu/#/"
               >
                 Contact
               </Link>
