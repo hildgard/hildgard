@@ -15,9 +15,9 @@ const SplashAbout: React.FC = () => {
                 </p>
                 <h1 className="text-2xl">About Hilgard</h1>
               </div>
-              <div className="mt-auto">
+              <div className="mt-auto pt-4">
                 <Link
-                  className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
+                  className="mt-2 font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
                   href=""
                 >
                   More on UC Davis V&E
