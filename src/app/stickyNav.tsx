@@ -39,7 +39,7 @@ export default function StickyNav() {
     <div
       className={`fixed top-0 left-0 w-full z-50 transition-opacity duration-700 ease-in-out ${
         show ? "opacity-100" : "opacity-0 pointer-events-none"
-      } bg-hilgard shadow-md`}
+      } bg-primary shadow-md`}
     >
       <div className="flex justify-between items-center py-1 px-1 md:py-4 md:px-16">
         <div className="w-full md:w-1/2">
