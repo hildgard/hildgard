@@ -4,13 +4,13 @@ const NavItems: React.FC = () => {
   return (
     <nav>
       <Link
-        className="font-bold text-white border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
+        className="font-bold text-white border active:bg-primary-dark hover:bg-primary-light border-white py-1 px-5"
         href="/#about"
       >
         About
       </Link>
       <Link
-        className="font-bold text-white border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 mx-4"
+        className="font-bold text-white border active:bg-primary-dark hover:bg-primary-light border-white py-1 px-5 mx-4"
         href="/#purchase"
       >
         Purchasing

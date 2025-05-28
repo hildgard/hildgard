@@ -4,8 +4,8 @@ import MapEmbed from "./mapEmbed";
 const SplashPurchase: React.FC = () => {
   return (
     <section id="purchase" className="main-container">
-      <hr className="text-hilgard" />
-      <h1 className="pt-24 pb-8 text-3xl text-hilgard">
+      <hr className="text-primary" />
+      <h1 className="pt-24 pb-8 text-3xl text-primary">
         Purchasing Info - Local Pickup Only
       </h1>
 
@@ -17,7 +17,7 @@ const SplashPurchase: React.FC = () => {
             below. No shipping, no deliveries.
           </p>
           <address
-            className="not-italic text-lg border-l-4 border-hilgard ps-4"
+            className="not-italic text-lg border-l-4 border-primary ps-4"
             itemScope
             itemType="https://schema.org/PostalAddress"
           >
@@ -40,7 +40,7 @@ const SplashPurchase: React.FC = () => {
       </div>
       <div className="flex pt-24 pb-4 mb-16 gap-5">
         <div className="w-full md:w-1/2">
-          <h3 className="text-hilgard text-xl pb-4">Offerings</h3>
+          <h3 className="text-primary text-xl pb-4">Offerings</h3>
           <p className="uppercase text-xl pb-1">Cabernet Sauvignon</p>
           <p>2020</p>
           <p>Oakville Station</p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SplashAbout: React.FC = () => {
   return (
-    <section id="about" className="bg-hilgard text-white">
+    <section id="about" className="bg-primary text-white">
       <div className="main-container">
         <div className="pt-16 pb-24">
           <div className="flex flex-col gap-5 md:flex-row">

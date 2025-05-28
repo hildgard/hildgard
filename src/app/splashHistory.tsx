@@ -3,11 +3,11 @@ import Image from "next/image";
 const SplashHistory: React.FC = () => {
   return (
     <section id="history" className="main-container">
-      <div className="pt-8 pb-24">
+      <div className="pt-16 pb-24">
         <div className="flex flex-col gap-5 md:flex-row">
           <div className="w-full md:w-1/3">
             <div>
-              <h1 className="text-2xl text-hilgard">
+              <h1 className="text-2xl text-primary">
                 Positioning Aggies as Leaders in the Wine Industry
               </h1>
             </div>
