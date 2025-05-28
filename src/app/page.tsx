@@ -9,8 +9,8 @@ export default function Home() {
     <main className="flex flex-col w-full mx-auto">
       <SplashIntro />
       <SplashAbout />
-      <SplashPurchase />
       <SplashHistory />
+      <SplashPurchase />
     </main>
   );
 }

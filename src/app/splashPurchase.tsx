@@ -4,7 +4,8 @@ import MapEmbed from "./mapEmbed";
 const SplashPurchase: React.FC = () => {
   return (
     <div className="main-container">
-      <h1 id="purchase" className="pt-16 pb-8 text-3xl text-hilgard">
+      <hr className="text-hilgard" />
+      <h1 id="purchase" className="pt-24 pb-8 text-3xl text-hilgard">
         Purchasing Info - Local Pickup Only
       </h1>
 
@@ -59,7 +60,6 @@ const SplashPurchase: React.FC = () => {
           <Image src={"./ph6.jpg"} width={898} height={900} alt={""} />
         </div>
       </div>
-      <hr className="text-hilgard" />
     </div>
   );
 };
