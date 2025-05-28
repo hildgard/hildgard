@@ -19,18 +19,19 @@ export const metadata: Metadata = {
     "vineyard",
     "red wine",
     "white wine",
+    "Student made wine",
   ],
-  authors: [{ name: "Hilgard631", url: "https://hilgard631.com" }],
+  authors: [{ name: "Hilgard631", url: "https://hilgard631.org" }],
   creator: "Hilgard631",
   publisher: "Hilgard631",
   openGraph: {
-    title: "Hilgard631 - Wine",
+    title: "Hilgard631 - Student made wines",
     description: "Discover and purchase premium Hilgard631 wines online.",
-    url: "https://hilgard631.com",
+    url: "https://hilgard631.org",
     siteName: "Hilgard631",
     images: [
       {
-        url: "https://hilgard631.com/public/thumbnail.jpg",
+        url: "https://hilgard631.org/thumbnail.jpg",
         width: 1200,
         height: 630,
         alt: "Hilgard631",
@@ -42,15 +43,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hilgard631 - Wine",
     description: "Discover and purchase premium Hilgard631 wines online.",
-    images: ["https://hilgard631.com/public/thumbnail.jpg"],
+    images: ["https://hilgard631.org/thumbnail.jpg"],
   },
   robots: {
     index: true,
     follow: true,
     nocache: false,
-  },
-  alternates: {
-    canonical: "https://hilgard631.com",
   },
 };
 

@@ -13,8 +13,8 @@ const SplashPurchase: React.FC = () => {
         <div className="w-full md:w-1/2">
           <p className="pb-8 text-lg">
             We keep things small-batch and intentionally limited. All of our
-            wines are available exclusively for local pickup at [insert location
-            name here]—no shipping, no deliveries.
+            wines are available exclusively for local pickup at the address
+            below. No shipping, no deliveries.
           </p>
           <address
             className="not-italic text-lg border-l-4 border-hilgard ps-4"

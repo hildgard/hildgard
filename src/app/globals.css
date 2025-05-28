@@ -1,5 +1,4 @@
 @import "./imports.css";
-@import "./typography.css";
 @import "tailwindcss";
 
 html {
@@ -59,4 +58,13 @@ html {
 }
 .splash-red {
   opacity: 0.88;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "proxima-nova-r", sans-serif;
 }
