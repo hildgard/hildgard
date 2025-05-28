@@ -31,18 +31,9 @@
   font-display: fallback;
 }
 
-:root {
-  --color-primary-hilgard: #580a24;
-  --primary-font: rgba(31, 31, 31, 0.99);
-  --secondary-font: rgba(31, 31, 31, 0.8);
-  --tertiary-font: rgba(31, 31, 31, 0.4);
-  --primary-white: rgba(255, 255, 255, 0.95);
-  --secondary-white: rgba(255, 255, 255, 0.8);
-}
-
 @theme {
-  --color-midnight: #121063;
-  --color-tahiti: #3ab7bf;
-  --color-bermuda: #78dcca;
   --color-hilgard: #580a24;
+  --color-primary: #580a24;
+  --color-primary-dark: #41071b;
+  --color-primary-light: #860f37;
 }

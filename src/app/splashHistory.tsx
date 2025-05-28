@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const SplashAbout: React.FC = () => {
+const SplashHistory: React.FC = () => {
   return (
     <section id="history" className="main-container">
       <div className="pt-8 pb-24">
@@ -74,4 +74,4 @@ const SplashAbout: React.FC = () => {
   );
 };
 
-export default SplashAbout;
+export default SplashHistory;

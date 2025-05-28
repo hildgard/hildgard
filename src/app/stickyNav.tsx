@@ -41,18 +41,19 @@ export default function StickyNav() {
         show ? "opacity-100" : "opacity-0 pointer-events-none"
       } bg-hilgard shadow-md`}
     >
-      <div className="flex flex-row justify-between items-center py-4 px-16">
-        <div className="w-1/2">
+      <div className="flex justify-between items-center py-1 px-1 md:py-4 md:px-16">
+        <div className="w-full md:w-1/2">
           <Link href="/#">
             <Image
               src="./hilgard631-light.svg"
               width={200}
               height={40}
+              className=""
               alt={"Hilgard631 Logo"}
             />
           </Link>
         </div>
-        <div className="w-1/2 text-end">
+        <div className="w-full md:w-1/2 text-end">
           <NavItems />
         </div>
       </div>

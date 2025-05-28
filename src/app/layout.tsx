@@ -66,7 +66,7 @@ export default function RootLayout({
         <div className="flex flex-col w-full mx-auto">{children}</div>
         <footer className="mb-8 mt-16">
           <div className="main-container border-b-1 border-hilgard ">
-            <div className="flex justify-between pb-4">
+            <div className="flex justify-between pb-3">
               <div className="w-1/3">
                 <p>© Copyright 2025 All Rights Reserved</p>
               </div>
@@ -79,9 +79,12 @@ export default function RootLayout({
                   src="./grapeleaf-footer.svg"
                 />
               </div>
-              <div className="w-1/3 text-end">
-                <Link href="https://linktr.ee/ucdavisvande">
-                  UC Davis V&E link tree
+              <div className="w-1/3 text-end ">
+                <Link
+                  className="text-primary hover:text-primary-light hover:underline"
+                  href="https://linktr.ee/ucdavisvande"
+                >
+                  UC Davis V&E
                 </Link>
               </div>
             </div>
