@@ -67,3 +67,6 @@ body {
   color: var(--foreground);
   font-family: "proxima-nova-r", sans-serif;
 }
+.disclaimer-fade {
+  background-color: rgba(57, 4, 22, 0.75);
+}
