@@ -38,7 +38,7 @@ const SplashPurchase: React.FC = () => {
           <MapEmbed />
         </div>
       </div>
-      <div className="flex pt-24 pb-4 mb-16 gap-5">
+      <div className="flex flex-col md:flex-row pt-24 pb-4 mb-16 gap-5">
         <div className="w-full md:w-1/2">
           <h3 className="text-primary text-xl pb-4">Offerings</h3>
           <p className="uppercase text-xl pb-1">Cabernet Sauvignon</p>
