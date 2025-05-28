@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavItems from "./navItems";
 
 const SplashIntro: React.FC = () => {
   return (
-    <div className="intro-wrapper h-screen">
+    <section id="intro" className="intro-wrapper h-screen">
       <div className="container">
         <div className="w-full sm:w-2/3 lg:w-4/10 h-[85vh] flex flex-col justify-between bg-hilgard splash-red">
           <div className="p-12">
@@ -36,36 +37,11 @@ const SplashIntro: React.FC = () => {
               Experimental Station.
             </p>
             <br />
-            <nav>
-              <Link
-                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
-                href="/#about"
-              >
-                About
-              </Link>
-              <Link
-                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 mx-4"
-                href="/#purchase"
-              >
-                Purchasing
-              </Link>
-              {/* <Link
-                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 me-4"
-                href="/#history"
-              >
-                History
-              </Link> */}
-              <Link
-                className="font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5 "
-                href="https://docs.google.com/forms/d/1_xbRfVVhoxrf1WhNJ2NGPMpRd4FnJlNKz2uYTGnDK9A/viewform?edit_requested=true"
-              >
-                Contact
-              </Link>
-            </nav>
+            <NavItems />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

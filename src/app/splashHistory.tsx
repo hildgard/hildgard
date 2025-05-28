@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const SplashAbout: React.FC = () => {
   return (
-    <div className="main-container">
+    <section id="history" className="main-container">
       <div className="pt-8 pb-24">
         <div className="flex flex-col gap-5 md:flex-row">
           <div className="w-full md:w-1/3">
-            <div id="history">
+            <div>
               <h1 className="text-2xl text-hilgard">
                 Positioning Aggies as Leaders in the Wine Industry
               </h1>
@@ -70,7 +70,7 @@ const SplashAbout: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

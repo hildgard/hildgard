@@ -3,13 +3,12 @@ import Link from "next/link";
 
 const SplashAbout: React.FC = () => {
   return (
-    <div className="bg-hilgard text-white">
+    <section id="about" className="bg-hilgard text-white">
       <div className="main-container">
         <div className="pt-16 pb-24">
-          {/* ABOUT SECTION */}
           <div className="flex flex-col gap-5 md:flex-row">
             <div className="w-full md:w-1/3 flex flex-col text-left">
-              <div id="about">
+              <div>
                 <p className="text-md italic text-sm">
                   Leaders in the Wine Industry
                 </p>
@@ -68,7 +67,7 @@ const SplashAbout: React.FC = () => {
           <p className="text-sm opacity-75">Photo Caption here:</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
