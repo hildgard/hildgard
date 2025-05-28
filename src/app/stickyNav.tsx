@@ -42,18 +42,17 @@ export default function StickyNav() {
       } bg-primary shadow-md`}
     >
       <div className="flex justify-between items-center py-1 px-1 md:py-4 md:px-16">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-2/3">
           <Link href="/#">
             <Image
               src="./hilgard631-light.svg"
               width={200}
               height={40}
-              className=""
               alt={"Hilgard631 Logo"}
             />
           </Link>
         </div>
-        <div className="w-full md:w-1/2 text-end">
+        <div className="w-full md:w-1/3 text-end">
           <NavItems />
         </div>
       </div>

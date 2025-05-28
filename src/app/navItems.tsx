@@ -10,7 +10,7 @@ const NavItems: React.FC = () => {
         About
       </Link>
       <Link
-        className="font-bold text-white border active:bg-primary-dark hover:bg-primary-light border-white py-1 px-5 mx-4"
+        className="font-bold text-white border active:bg-primary-dark hover:bg-primary-light border-white py-1 px-5 md:mx-4"
         href="/#purchase"
       >
         Purchasing
