@@ -33,8 +33,8 @@ export default function DisclaimerModal() {
       <div className="bg-white p-6 rounded-xl shadow-xl max-w-md text-center">
         <h2 className="text-xl font-semibold mb-4">Over 21 Disclaimer</h2>
         <p className="mb-4">
-          You must be over 21 years old to access this site. <br />
-          Please confirm that you are of legal age.
+          By entering this website, you affirm that you are of legal drinking
+          age in the country where this site is accessed.
         </p>
         <div className="flex justify-center gap-4">
           <button

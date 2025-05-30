@@ -7,9 +7,9 @@ const SplashHistory: React.FC = () => {
         <div className="flex flex-col gap-5 md:flex-row">
           <div className="w-full md:w-1/3">
             <div>
-              <h1 className="text-2xl text-primary">
+              <h2 className="text-2xl text-primary">
                 Positioning Aggies as Leaders in the Wine Industry
-              </h1>
+              </h2>
             </div>
           </div>
           <div className="w-full md:w-2/3">

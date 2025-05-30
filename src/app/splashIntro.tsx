@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavItems from "./navItems";
+import NavItems from "./components/navItems";
 
 const SplashIntro: React.FC = () => {
   return (
