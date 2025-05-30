@@ -70,6 +70,7 @@ const SplashHistory: React.FC = () => {
           </div>
         </div>
       </div>
+      <hr className="text-primary" />
     </section>
   );
 };
