@@ -97,7 +97,14 @@ export default function WineCarousel() {
       >
         {wines.map((wine, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col items-center">
+            <div
+              onClick={() => setActiveIndex(index)}
+              className={`flex flex-col items-center cursor-pointer p-2 rounded-md border transition duration-200 ${
+                activeIndex === index
+                  ? "border-red-500 shadow-lg"
+                  : "border-transparent"
+              }`}
+            >
               <img
                 src={wine.image}
                 alt={wine.name}
