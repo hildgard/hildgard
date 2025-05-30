@@ -11,7 +11,7 @@ const SplashOffer: React.FC = () => {
         present UC Davis Wines, you can find all of them below
       </p>
 
-      <div className="flex flex-col md:flex-row pb-4 mb-16 gap-16">
+      <div className="flex flex-col md:flex-row pt-8 mt-8 pb-8 mb-16 gap-16 border-t-1 border-primary border-b-1">
         <div className="w-full md:w-1/2">
           <Image src={"./ph6.jpg"} width={898} height={900} alt={""} />
           <div className="flex justify-between mt-3">

@@ -100,9 +100,7 @@ export default function WineCarousel() {
             <div
               onClick={() => setActiveIndex(index)}
               className={`flex flex-col items-center cursor-pointer p-2 rounded-md border transition duration-200 ${
-                activeIndex === index
-                  ? "border-red-500 shadow-lg"
-                  : "border-transparent"
+                activeIndex === index ? "border-primary" : "border-transparent"
               }`}
             >
               <img
