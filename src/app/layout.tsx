@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 
 import { GoogleTagManager } from "@next/third-parties/google";
 
-import Image from "next/image";
-
 import "./globals.css";
-import Link from "next/link";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Hilgard631 - Wine",
@@ -62,32 +60,7 @@ export default function RootLayout({
       <GoogleTagManager gtmId="G-LJZKP1YDCW" />
       <body className={`antialiased`}>
         <div className="flex flex-col w-full mx-auto">{children}</div>
-        <footer className="mb-8 mt-16">
-          <div className="main-container border-b-1 border-hilgard ">
-            <div className="flex justify-between pb-3">
-              <div className="w-1/3">
-                <p>© Copyright 2025 All Rights Reserved</p>
-              </div>
-              <div className="w-1/3 text-center">
-                <Image
-                  width={28}
-                  height={29}
-                  className="inline-block"
-                  alt={"Pencil image of a grape leaf colored"}
-                  src="./grapeleaf-footer.svg"
-                />
-              </div>
-              <div className="w-1/3 text-end ">
-                <Link
-                  className="text-primary hover:text-primary-light hover:underline"
-                  href="https://linktr.ee/ucdavisvande"
-                >
-                  UC Davis V&E
-                </Link>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

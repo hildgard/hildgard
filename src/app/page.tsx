@@ -7,6 +7,7 @@ import SplashOffer from "./splashOffer";
 import SplashPurchase from "./splashPurchase";
 import StickyNav from "./components/stickyNav";
 import SplashFAQ from "./splashFaqs";
+import SplashStudent from "./splashStudent";
 
 export default function Home() {
   return (
@@ -16,9 +17,14 @@ export default function Home() {
       <SplashAbout />
       <StickyNav />
       <SplashHistory />
-      <SplashOffer />
-      <SplashPurchase />
-      <SplashFAQ />
+      <div className="gradient-bg">
+        <SplashOffer />
+      </div>
+      <div className="bg-bg">
+        <SplashStudent />
+        <SplashPurchase />
+        <SplashFAQ />
+      </div>
     </main>
   );
 }

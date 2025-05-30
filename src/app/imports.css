@@ -32,7 +32,11 @@
 }
 
 @theme {
-  --color-primary: #580a24;
-  --color-primary-dark: #41071b;
-  --color-primary-light: #860f37;
+  --color-primary: rgba(88, 10, 36, 1); /* solid */
+  --color-primary-dark: rgba(65, 7, 27, 1); /* darker */
+  --color-primary-light: rgba(134, 15, 55, 1); /* lighter */
+  --color-bg: rgba(253, 246, 238, 1); /* background */
+  --color-primary-f: rgba(31, 31, 31, 0.99);
+  --color-secondary-f: rgba(31, 31, 31, 0.7);
+  --color-tertiary-f: rgba(31, 31, 31, 0.48);
 }
