@@ -19,7 +19,11 @@ export default function Accordion({ title, children }: AccordionProps) {
         className="w-full cursor-pointer text-left text-xl flex items-baseline justify-between"
       >
         {title}
-        <ChevronDownIcon className="h-5 w-5" />
+        <ChevronDownIcon
+          className={`h-5 w-5 transform transition-transform duration-300 ${
+            isOpen ? "rotate-180" : "rotate-0"
+          }`}
+        />
       </button>
       <AnimatePresence initial={false}>
         {isOpen && (
