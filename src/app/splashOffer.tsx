@@ -13,7 +13,12 @@ const SplashOffer: React.FC = () => {
 
       <div className="flex flex-col md:flex-row pt-8 mt-8 pb-8 mb-16 gap-16 border-primary border-b-1">
         <div className="w-full md:w-1/2">
-          <Image src={"./vesb.jpg"} width={815} height={815} alt={""} />
+          <Image
+            src={"./productshots/vesb.jpg"}
+            width={815}
+            height={815}
+            alt={""}
+          />
           <div className="flex justify-between mt-3">
             <p className="text-secondary-f">Oakville AVA, Napa Valley</p>
             <p className="text-secondary-f">2024</p>
@@ -22,7 +27,12 @@ const SplashOffer: React.FC = () => {
           <p>$&nbsp;50.00</p>
         </div>
         <div className="w-full md:w-1/2">
-          <Image src={"./vecs.jpg"} width={815} height={815} alt={""} />
+          <Image
+            src={"./productshots/vecs.jpg"}
+            width={815}
+            height={815}
+            alt={""}
+          />
           <div className="flex justify-between mt-3">
             <p className="text-secondary-f">Oakville AVA, Napa Valley</p>
             <p className="text-secondary-f">2020</p>
