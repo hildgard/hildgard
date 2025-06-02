@@ -1,9 +1,9 @@
-import WineCarousel from "./components/WineCarousel";
+import WineGrid from "./components/WineGrid";
 
 const SplashStudent: React.FC = () => {
   return (
     <section id="student" className="">
-      <WineCarousel />
+      <WineGrid />
     </section>
   );
 };
