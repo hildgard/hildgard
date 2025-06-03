@@ -14,7 +14,7 @@ const SplashOffer: React.FC = () => {
       <div className="flex flex-col md:flex-row pt-8 mt-8 pb-8 mb-16 gap-16">
         <div className="w-full md:w-1/2 pb-2 border-b-2 hover:border-primary border-transparent transition duration-200">
           <Image
-            src={"./productshots/vesb.jpg"}
+            src={"./productshots/vesauvignonblanc.jpg"}
             width={815}
             height={815}
             alt={""}
@@ -28,7 +28,7 @@ const SplashOffer: React.FC = () => {
         </div>
         <div className="w-full md:w-1/2 pb-2 border-b-2 hover:border-primary border-transparent transition duration-200">
           <Image
-            src={"./productshots/vecs.jpg"}
+            src={"./productshots/vecabernetsauvignon.jpg"}
             width={815}
             height={815}
             alt={""}
