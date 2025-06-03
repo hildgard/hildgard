@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion";
 import Link from "next/link";
+import { HilgardFaqs } from "./lib/faqs";
 
 export default function SplashFAQ() {
   return (
@@ -9,29 +10,43 @@ export default function SplashFAQ() {
           <h2 className="pt-24 pb-4 text-2xl text-primary">
             Frequently Asked Questions
           </h2>
-          <Accordion title="How do I choose the right wine for a gift?">
-            <p className="border-primary border-l-2 w-[100%] md:w-[65%] px-4 text-md">
-              Consider the recipient’s preferences—red or white, dry or
-              sweet—and the occasion. A safe choice is a popular varietal like
-              Pinot Noir or Chardonnay.
-            </p>
-          </Accordion>
-          <Accordion title="Can I order wine online and have it delivered?">
-            <p className="border-primary border-l-2 w-[100%] md:w-[65%] px-4 text-md">
-              Yes, many regions allow online wine orders with home delivery.
-              Make sure to check your local laws and the seller’s shipping
-              policy.
-            </p>
-          </Accordion>
-          <Accordion title="What’s the difference between vintage and non-vintage wines?">
-            <p className="border-primary border-l-2 w-[100%] md:w-[65%] px-4 text-md">
-              Vintage wines are made from grapes harvested in a single year,
-              often indicating quality and aging potential. Non-vintage blends
-              use grapes from multiple years for consistency.
-            </p>
-          </Accordion>
 
-          <Link href="">View all FAQs</Link>
+          {HilgardFaqs.map((faq) => {
+            return (
+              <Accordion key={faq.id} title={faq.question}>
+                <div className="border-primary border-l-2 w-full md:w-[65%] px-4 text-md space-y-2">
+                  <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
+
+                  {faq.sources?.length > 0 && (
+                    <ul>
+                      <h4 className="uppercase text-xs text-secondary-f pt-2">
+                        Links
+                      </h4>
+                      {faq.sources.map((source, index) => (
+                        <li key={index}>
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary text-sm"
+                          >
+                            {source.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </Accordion>
+            );
+          })}
+
+          <Link
+            href="/faq"
+            className="text-blue-600 underline mt-4 inline-block"
+          >
+            View all FAQs
+          </Link>
         </div>
       </div>
     </section>
