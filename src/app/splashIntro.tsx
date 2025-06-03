@@ -21,7 +21,7 @@ const SplashIntro: React.FC = () => {
 
       {/* Overlay Content */}
       <div className="relative z-10 h-screen flex">
-        <div className="w-full sm:w-2/3 lg:w-4/10 flex flex-col justify-between bg-primary splash-red text-white p-12 md:mt-16 md:ms-16 md:mb-16">
+        <div className="w-full sm:w-2/3 lg:w-4/10 flex flex-col justify-between bg-primary splash-red text-white p-12 md:m-16">
           <div>
             <Image
               width={72}
