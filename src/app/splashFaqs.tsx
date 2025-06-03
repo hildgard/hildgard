@@ -4,7 +4,7 @@ import { HilgardFaqs } from "./lib/faqs";
 
 export default function SplashFAQ() {
   return (
-    <section className="main-container">
+    <section id="faq" className="main-container">
       <div className="flex flex-row">
         <div className="w-full">
           <h2 className="pt-24 pb-4 text-2xl text-primary">
@@ -40,13 +40,6 @@ export default function SplashFAQ() {
               </Accordion>
             );
           })}
-
-          <Link
-            href="/faq"
-            className="text-blue-600 underline mt-4 inline-block"
-          >
-            View all FAQs
-          </Link>
         </div>
       </div>
     </section>

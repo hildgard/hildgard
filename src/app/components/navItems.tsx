@@ -22,6 +22,12 @@ const NavItems: React.FC = () => {
         Purchasing
       </Link>
       <Link
+        className="font-bold text-nav pe-2 me-2 active:text-white active:underline hover:text-white"
+        href="/#faq"
+      >
+        FAQs
+      </Link>
+      <Link
         className="font-bold text-nav active:text-white active:underline hover:text-white"
         href="https://docs.google.com/forms/d/1_xbRfVVhoxrf1WhNJ2NGPMpRd4FnJlNKz2uYTGnDK9A/viewform?edit_requested=true"
       >

@@ -60,4 +60,45 @@ export const HilgardFaqs: Faq[] = [
     answer:
       "Yes, we have a one case limit on the purchase of our Oakville Station wine. Similarly, there is a one case limit on student-produced wines.",
   },
+  {
+    id: 7,
+    question: "Are there any discounts?",
+    answer:
+      "We do not offer discounts for multiple bottle purchases or for any other reason.",
+  },
+  {
+    id: 8,
+    question: "What should I bring when I go to campus to buy wine?",
+    answer:
+      "Bring a valid credit or debit card and a valid form of identification to determine that you are 21+ years of age. We do not accept cash or checks.",
+  },
+  {
+    id: 9,
+    question: "Do you accept cash or checks?",
+    answer: "No, we only accept credit or debit cards",
+  },
+  {
+    id: 10,
+    question: "What should I bring when I go to campus to buy wine?",
+    answer:
+      "Bring a valid credit or debit card and a valid form of identification to determine that you are 21+ years of age. We do not accept cash or checks.",
+  },
+  {
+    id: 11,
+    question: "Can I place an order over the phone?",
+    answer:
+      "Unfortunately, we cannot reserve wines in advance, and operate on a first come - first served basis.",
+  },
+  {
+    id: 12,
+    question: "Who can I contact?",
+    answer:
+      "If you have any questions, please fill out our google form and someone from our team will connect with you.",
+    sources: [
+      {
+        label: "Contact Form",
+        url: "https://docs.google.com/forms/d/1_xbRfVVhoxrf1WhNJ2NGPMpRd4FnJlNKz2uYTGnDK9A/viewform?edit_requested=true",
+      },
+    ],
+  },
 ];

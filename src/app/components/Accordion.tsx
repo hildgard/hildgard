@@ -13,7 +13,7 @@ export default function Accordion({ title, children }: AccordionProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="my-8  overflow-hidden">
+    <div className="my-6  overflow-hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full cursor-pointer text-left text-xl flex items-baseline justify-between"
