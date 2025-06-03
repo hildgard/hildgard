@@ -5,7 +5,7 @@ const SplashIntro: React.FC = () => {
   return (
     <section id="intro" className="intro-wrapper h-screen">
       <div className="container">
-        <div className="w-full sm:w-2/3 lg:w-4/10 h-[100vh] md:h-[85vh] flex flex-col justify-between bg-primary splash-red">
+        <div className="w-full sm:w-2/3 lg:w-4/10 md:h-[85vh] flex flex-col justify-between bg-primary splash-red">
           <div className="p-6 md:p-12">
             <Image
               width={72}
