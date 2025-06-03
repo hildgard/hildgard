@@ -16,7 +16,7 @@ export default function SplashFAQ() {
                 <div className="border-primary border-l-2 w-full md:w-[65%] px-4 text-md space-y-2">
                   <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
 
-                  {faq.sources?.length > 0 && (
+                  {faq.sources && faq.sources.length > 0 && (
                     <>
                       <h4 className="uppercase text-xs text-secondary-f pt-2">
                         Links
