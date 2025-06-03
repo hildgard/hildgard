@@ -4,12 +4,13 @@ import NavItems from "./components/navItems";
 const SplashIntro: React.FC = () => {
   return (
     <section id="intro" className="relative h-screen overflow-hidden">
-      {/* Background Video */}
       <video
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
+        poster="./grapesonvine.jpg"
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source
@@ -19,7 +20,6 @@ const SplashIntro: React.FC = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay Content */}
       <div className="relative z-10 h-screen flex">
         <div className="w-full sm:w-2/3 lg:w-4/10 flex flex-col justify-between bg-primary splash-red text-white p-12 md:m-16">
           <div>
