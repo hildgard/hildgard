@@ -1,5 +1,4 @@
 import Accordion from "./components/Accordion";
-import Link from "next/link";
 import { HilgardFaqs } from "./lib/faqs";
 
 export default function SplashFAQ() {
@@ -18,23 +17,25 @@ export default function SplashFAQ() {
                   <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
 
                   {faq.sources?.length > 0 && (
-                    <ul>
+                    <>
                       <h4 className="uppercase text-xs text-secondary-f pt-2">
                         Links
                       </h4>
-                      {faq.sources.map((source, index) => (
-                        <li key={index}>
-                          <a
-                            href={source.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary text-sm"
-                          >
-                            {source.label}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
+                      <ul>
+                        {faq.sources.map((source, index) => (
+                          <li key={index}>
+                            <a
+                              href={source.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-primary text-sm"
+                            >
+                              {source.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
                   )}
                 </div>
               </Accordion>
