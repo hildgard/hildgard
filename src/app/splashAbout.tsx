@@ -57,21 +57,41 @@ const SplashAbout: React.FC = () => {
           {/* IMAGE 1 */}
           <div className="flex mb-5 mt-12">
             <div className="w-full">
-              <Image src={"./about_1.jpg"} width={1600} height={818} alt={""} />
+              <Image
+                src={"./about_1.jpg"}
+                width={1600}
+                height={818}
+                alt={"Hands sort freshly harvested grapes"}
+              />
             </div>
           </div>
 
           {/* IMAGE 2 + 3 */}
           <div className="flex flex-col gap-5 md:flex-row">
             <div className="w-full md:w-1/3">
-              <Image src={"./about_2.jpg"} width={528} height={776} alt={""} />
+              <Image
+                src={"./about_2.jpg"}
+                width={528}
+                height={776}
+                alt={"lush vineyard rows"}
+              />
             </div>
             <div className="w-full md:w-2/3">
-              <Image src={"./about_3.jpg"} width={1076} height={776} alt={""} />
+              <Image
+                src={"./about_3.jpg"}
+                width={1076}
+                height={776}
+                alt={"Dimly lit barrel room"}
+              />
             </div>
           </div>
 
-          <p className="text-sm opacity-75">Photo Caption here:</p>
+          <p className="text-sm mt-2 opacity-75">
+            Hands sort freshly harvested grapes in the top image, highlighting
+            the winemaking process. Below, lush vineyard rows and a dimly lit
+            barrel room showcase the journey from vine to cellar at a working
+            winery.
+          </p>
         </div>
       </div>
     </section>

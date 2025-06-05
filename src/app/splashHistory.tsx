@@ -48,10 +48,21 @@ const SplashHistory: React.FC = () => {
         </div>
         <div className="flex mt-12">
           <div className="w-full">
-            <Image src={"./ph7.jpg"} width={1604} height={752} alt={""} />
+            <Image
+              src={"./oakville_station.jpg"}
+              width={1604}
+              height={840}
+              alt={
+                "Rows of grapevines in a vineyard stretching into the distance, with autumn-colored leaves and a mountainous landscape in the background under a clear sky."
+              }
+            />
           </div>
         </div>
-        <p className="text-sm opacity-75">Photo Caption here:</p>
+        <p className="text-sm opacity-75">
+          Rows of grapevines in a vineyard stretching into the distance, with
+          autumn-colored leaves and a mountainous landscape in the background
+          under a clear sky.
+        </p>
         <div className="flex flex-col gap-5 md:flex-row mt-8">
           <div className="w-full md:w-1/3">
             <div>
