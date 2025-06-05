@@ -21,7 +21,7 @@ const SplashIntro: React.FC = () => {
       </video>
 
       <div className="relative z-10 h-screen flex">
-        <div className="w-full md:w-2/3 xl:w-1/3 flex flex-col justify-between bg-primary splash-red text-white p-12 md:m-16">
+        <div className="w-full md:w-2/3 xl:w-1/3 flex flex-col justify-between bg-primary splash-red text-white p-4 md:p-12 md:m-16">
           <div>
             <Image
               width={72}
@@ -31,9 +31,7 @@ const SplashIntro: React.FC = () => {
             />
           </div>
 
-          <p className="text-xl italic mt-auto">
-            From Vine to Vision: The Launch of Hilgard631
-          </p>
+          <p className="text-xl italic mt-auto">From Vine to Vision</p>
           <Image
             src="/hilgard631-light.svg"
             width={300}

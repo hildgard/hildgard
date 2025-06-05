@@ -10,7 +10,7 @@ const SplashAbout: React.FC = () => {
             <div className="w-full md:w-1/3 flex flex-col text-left">
               <div>
                 {/* <p className="text-md italic text-sm">Origins of</p> */}
-                <h1 className="text-2xl">Origins of Hilgard</h1>
+                <h1 className="text-2xl">Origins of Hilgard631</h1>
               </div>
               <div className="mt-auto pt-4">
                 <Link
