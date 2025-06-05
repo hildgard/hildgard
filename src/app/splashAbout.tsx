@@ -57,17 +57,17 @@ const SplashAbout: React.FC = () => {
           {/* IMAGE 1 */}
           <div className="flex mb-5 mt-12">
             <div className="w-full">
-              <Image src={"./ph1.jpg"} width={1600} height={818} alt={""} />
+              <Image src={"./about_1.jpg"} width={1600} height={818} alt={""} />
             </div>
           </div>
 
           {/* IMAGE 2 + 3 */}
           <div className="flex flex-col gap-5 md:flex-row">
             <div className="w-full md:w-1/3">
-              <Image src={"./bottle.jpg"} width={528} height={776} alt={""} />
+              <Image src={"./about_2.jpg"} width={528} height={776} alt={""} />
             </div>
             <div className="w-full md:w-2/3">
-              <Image src={"./ph3.jpg"} width={1076} height={776} alt={""} />
+              <Image src={"./about_3.jpg"} width={1076} height={776} alt={""} />
             </div>
           </div>
 
