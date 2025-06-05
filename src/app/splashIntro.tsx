@@ -21,7 +21,10 @@ const SplashIntro: React.FC = () => {
       </video>
 
       <div className="relative z-10 h-screen flex">
-        <div className="w-full md:w-2/3 xl:w-1/3 flex flex-col justify-between bg-primary splash-red text-white p-4 md:p-12 md:m-16">
+        <div
+          id="shownav"
+          className="w-full md:w-2/3 xl:w-1/3 flex flex-col justify-between bg-primary splash-red text-white p-4 md:p-12 md:m-16"
+        >
           <div>
             <Image
               width={72}

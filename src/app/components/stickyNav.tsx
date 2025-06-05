@@ -22,7 +22,7 @@ export default function StickyNav() {
       }
     );
 
-    const section = document.getElementById("intro");
+    const section = document.getElementById("shownav");
     if (section) {
       sectionRef.current = section;
       observer.observe(section);
