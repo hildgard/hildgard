@@ -31,7 +31,9 @@ const SplashIntro: React.FC = () => {
             />
           </div>
 
-          <p className="text-xl italic mt-auto">Introducing</p>
+          <p className="text-xl italic mt-auto">
+            From Vine to Vision: The Launch of Hilgard631
+          </p>
           <Image
             src="/hilgard631-light.svg"
             width={300}
@@ -40,14 +42,14 @@ const SplashIntro: React.FC = () => {
             alt="Hilgard631 Logo"
           />
           <p className="text-base">
-            For over 145 years, the UC Davis Department of Viticulture and
-            Enology (V&E) has united a diverse community of faculty, staff, and
-            students under a shared goal of producing exceptional wine. In
-            support of this vision, Hilgard631 501(c)(3) is the nonprofit
-            organization leading the charge of selling our wine to the public
-            with wine grapes from the UC Davis campus vineyards, ToKalon (Napa
-            Valley’s most renowned vineyard), and the UC Davis Oakville
-            Experimental Station.
+            With over 145 years of global leadership in grape and wine
+            education, the UC Davis Department of Viticulture and Enology (V&E)
+            enters a new era with the launch of Hilgard631. This 501(c)(3)
+            nonprofit makes it possible for us to share our wine with the
+            general public for the benefit of student scholarship. Hilgard631
+            supports our mission of uniting a diverse community of faculty,
+            staff, and students via the knowledge and learning required to
+            produce exceptional wine.
           </p>
           <br />
           <NavItems />
