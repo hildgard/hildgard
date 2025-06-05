@@ -31,7 +31,7 @@ html {
 }
 .main-container {
   padding: 0;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -45,7 +45,7 @@ html {
 /* For large screens (lg breakpoint) */
 @media (min-width: 1025px) {
   .main-container {
-    width: 50%;
+    width: 65%;
     max-width: 1080px;
   }
 }
