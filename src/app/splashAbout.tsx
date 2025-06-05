@@ -15,7 +15,7 @@ const SplashAbout: React.FC = () => {
               <div className="mt-auto pt-4 ">
                 <Link
                   className="mt-2 font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
-                  href=""
+                  href="https://wineserver.ucdavis.edu/#/"
                 >
                   More on UC Davis V&E
                 </Link>
