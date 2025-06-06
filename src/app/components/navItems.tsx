@@ -4,31 +4,32 @@ const NavItems: React.FC = () => {
   return (
     <nav>
       <Link
-        className="font-bold text-nav pe-2 me-2 active:text-white active:underline hover:text-white"
+        className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="/#about"
       >
         About
       </Link>
+
       <Link
-        className="font-bold text-nav pe-2 me-2 active:text-white active:underline hover:text-white"
+        className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="/#selection"
       >
         Selection
       </Link>
       <Link
-        className="font-bold text-nav pe-2 me-2 active:text-white active:underline hover:text-white"
+        className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="/#purchase"
       >
         Purchasing
       </Link>
       <Link
-        className="font-bold text-nav pe-2 me-2 active:text-white active:underline hover:text-white"
+        className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="/#faq"
       >
         FAQs
       </Link>
       <Link
-        className="font-bold text-nav active:text-white active:underline hover:text-white"
+        className="relative font-bold text-nav hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="https://docs.google.com/forms/d/1_xbRfVVhoxrf1WhNJ2NGPMpRd4FnJlNKz2uYTGnDK9A/viewform?edit_requested=true"
       >
         Contact
