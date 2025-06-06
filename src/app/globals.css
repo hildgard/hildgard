@@ -38,14 +38,14 @@ html {
 /* For medium screens (md breakpoint) */
 @media (min-width: 641px) and (max-width: 1024px) {
   .main-container {
-    width: 65%;
+    width: 75%;
     max-width: 100%;
   }
 }
 /* For large screens (lg breakpoint) */
 @media (min-width: 1025px) {
   .main-container {
-    width: 65%;
+    width: 55%;
     max-width: 1080px;
   }
 }
