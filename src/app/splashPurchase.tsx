@@ -11,7 +11,7 @@ const SplashPurchase: React.FC = () => {
         <div className="w-full md:w-3/4 pb-8">
           <p className="pb-8 text-xl">
             All our wines are available exclusively for local pickup at the
-            address below. No shipping, no deliveries.
+            address below. No&nbsp;shipping,&nbsp;no&nbsp;deliveries.
           </p>
           <address
             className="not-italic text-lg border-l-4 border-primary ps-4"

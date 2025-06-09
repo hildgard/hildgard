@@ -5,23 +5,10 @@ const SplashAbout: React.FC = () => {
     <section id="about" className="bg-primary text-white">
       <div className="main-container">
         <div className="pt-16 pb-24">
-          <div className="flex flex-col gap-5 md:flex-row">
-            <div className="w-full md:w-1/3 flex flex-col text-left">
-              {/* <div>
-                <h2 className="text-3xl">Origins of Hilgard631</h2>
-              </div>
-              <div className="mt-auto pt-4 ">
-                <Link
-                  className="mt-2 font-bold border active:bg-[#521322] hover:bg-[#821D36] border-white py-1 px-5"
-                  href="https://wineserver.ucdavis.edu/#/"
-                >
-                  More on UC Davis V&E
-                </Link>
-              </div> */}
-            </div>
-            <div className="w-full md:w-2/3">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:ml-auto w-full md:w-2/3">
               <h2 className="text-3xl mb-4">Origins of Hilgard631</h2>
-              <p className="text-lg">
+              <p>
                 The name Hilgard631 pays tribute to Dr. Eugene Hilgard, a
                 pioneering soil scientist, viticulturist, and the first director
                 of the University Agricultural Experiment Station (AES), which
@@ -32,8 +19,8 @@ const SplashAbout: React.FC = () => {
                 sustainability.
               </p>
               <br />
-              <h3 className="text-2xl mb-2">The Grapes and Wines</h3>
-              <p className="text-lg">
+              <h3 className="text-xl mb-2">The Grapes and Wines</h3>
+              <p>
                 Wines are made in the UC Davis LEED Platinum Teaching and
                 Research Winery from grapes grown by us. They come from Oakville
                 Station, our premier Napa Valley vineyard used for generations

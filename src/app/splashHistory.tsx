@@ -7,13 +7,12 @@ const SplashHistory: React.FC = () => {
   return (
     <section id="history" className="main-container">
       <div className="pt-16 pb-24">
-        <div className="flex flex-col gap-5 md:flex-row">
-          <div className="w-full md:w-1/3"></div>
-          <div className="w-full md:w-2/3">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:ml-auto md:w-2/3">
             <h2 className="text-3xl text-primary mb-5">
-              Positioning Aggies as Leaders in the Wine Industry
+              Positioning Aggies as Leaders in the Wine&nbsp;Industry
             </h2>
-            <p className="text-lg">
+            <p>
               At UC Davis, students can earn a Master of Science degree,
               Bachelor of Science degree, or a minor in viticulture and enology.
               These degrees equip students with the scientific foundation of
@@ -23,7 +22,7 @@ const SplashHistory: React.FC = () => {
               faculty.
             </p>
             <br />
-            <p className="text-lg">
+            <p>
               The career opportunities for V&E graduates are limitless, with
               many going on to be winemakers, vineyard managers, professors,
               consultants, researchers, industry leaders, and more. The V&E
