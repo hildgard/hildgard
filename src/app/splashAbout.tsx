@@ -19,7 +19,7 @@ const SplashAbout: React.FC = () => {
                 sustainability.
               </p>
               <br />
-              <h3 className="text-xl mb-2">The Grapes and Wines</h3>
+              <h3 className="text-2xl mb-2">The Grapes and Wines</h3>
               <p>
                 Wines are made in the UC Davis LEED Platinum Teaching and
                 Research Winery from grapes grown by us. They come from Oakville

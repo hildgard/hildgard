@@ -89,3 +89,7 @@ p {
     rgba(253, 246, 238, 1) 100%
   );
 }
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
