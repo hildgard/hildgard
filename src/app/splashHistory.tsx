@@ -32,16 +32,6 @@ const SplashHistory: React.FC = () => {
               problem-solvers, and leaders whose careers will help transform the
               wine industry locally and globally.
             </p>
-            <br />
-            <p className="text-lg">
-              The career opportunities for V&E graduates are limitless, with
-              many going on to be winemakers, vineyard managers, professors,
-              consultants, researchers, industry leaders, and more. The V&E
-              Department’s cutting-edge facilities, research-driven curriculum,
-              and deep industry ties shape students into thinkers,
-              problem-solvers, and leaders whose careers will help transform the
-              wine industry locally and globally.{" "}
-            </p>
             <div className="mt-8">
               <Link
                 href="https://wineserver.ucdavis.edu/#/"
