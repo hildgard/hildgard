@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
 import Footer from "./components/footer";
@@ -57,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="G-LJZKP1YDCW" />
+      <GoogleAnalytics gaId="G-LJZKP1YDCW" />
       <body className={`antialiased`}>
         <div className="flex flex-col w-full mx-auto">{children}</div>
         <Footer />
