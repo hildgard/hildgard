@@ -25,10 +25,10 @@ const SplashPurchase: React.FC = () => {
             <span itemProp="addressLocality">Davis</span>,{" "}
             <span itemProp="addressRegion">CA</span>{" "}
             <span itemProp="postalCode">95616</span>
-            <br />
+            {/* <br />
             <br />
             <span>9:00am to 5:00pm</span> <br />
-            <span>Monday Through Friday</span>
+            <span>Monday Through Friday</span> */}
           </address>
         </div>
         <MapEmbed />

@@ -45,6 +45,13 @@ html {
 /* For large screens (lg breakpoint) */
 @media (min-width: 1025px) {
   .main-container {
+    width: 65%;
+    max-width: 1080px;
+  }
+}
+/* For large screens (lg breakpoint) */
+@media (min-width: 1325px) {
+  .main-container {
     width: 55%;
     max-width: 1080px;
   }

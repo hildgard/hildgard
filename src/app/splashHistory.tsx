@@ -52,15 +52,15 @@ const SplashHistory: React.FC = () => {
               width={1604}
               height={840}
               alt={
-                "Rows of grapevines in a vineyard stretching into the distance, with autumn-colored leaves and a mountainous landscape in the background under a clear sky."
+                "Rows of grapevines in a vineyard stretching into the distance, with autumn-colored leaves and a mountainous landscape in the background under a clear sky. "
               }
             />
           </div>
         </div>
-        <p className="text-sm opacity-75">
+        <p className="text-sm mt-1 opacity-75">
           Rows of grapevines in a vineyard stretching into the distance, with
           autumn-colored leaves and a mountainous landscape in the background
-          under a clear sky.
+          under a clear sky. (Gregory&nbsp;Urquiaga&nbsp;/&nbsp;UC&nbsp;Davis)
         </p>
       </div>
     </section>

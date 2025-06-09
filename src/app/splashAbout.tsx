@@ -77,8 +77,8 @@ const SplashAbout: React.FC = () => {
             </div>
           </div> */}
 
-          <p className="text-sm mt-2 opacity-75">
-            Hands sort freshly harvested grapes.
+          <p className="text-sm mt-1 opacity-75">
+            Hands sort freshly harvested grapes. (Gregory Urquiaga / UC Davis)
           </p>
         </div>
       </div>
