@@ -33,7 +33,7 @@ const SplashAbout: React.FC = () => {
           </div>
 
           {/* IMAGE 1 */}
-          <div className="flex mb-5 mt-12">
+          <div className="flex flex-col mb-5 mt-12">
             <div className="w-full">
               <Image
                 src={"./about_1.jpg"}
@@ -42,31 +42,10 @@ const SplashAbout: React.FC = () => {
                 alt={"Hands sort freshly harvested grapes"}
               />
             </div>
+            <p className="text-sm mt-1 opacity-75">
+              Hands sort freshly harvested grapes. (Gregory Urquiaga / UC Davis)
+            </p>
           </div>
-
-          {/*          
-          <div className="flex flex-col gap-5 md:flex-row">
-            <div className="w-full md:w-1/3">
-              <Image
-                src={"./about_2.jpg"}
-                width={528}
-                height={776}
-                alt={"lush vineyard rows"}
-              />
-            </div>
-            <div className="w-full md:w-2/3">
-              <Image
-                src={"./about_3.jpg"}
-                width={1076}
-                height={776}
-                alt={"Dimly lit barrel room"}
-              />
-            </div>
-          </div> */}
-
-          <p className="text-sm mt-1 opacity-75">
-            Hands sort freshly harvested grapes. (Gregory Urquiaga / UC Davis)
-          </p>
         </div>
       </div>
     </section>

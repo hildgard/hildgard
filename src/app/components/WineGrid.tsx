@@ -117,8 +117,8 @@ export default function WineGrid() {
               src={wine.image}
               alt={wine.name}
               width={400}
-              height={240}
-              className="h-60 object-cover mb-2 w-full"
+              height={400}
+              className="object-cover mb-2 w-full"
             />
             <div className="flex justify-between mt-1">
               <p className="text-secondary-f text-sm">{wine.location}</p>

@@ -17,7 +17,7 @@ const SplashHistory: React.FC = () => {
               Bachelor of Science degree, or a minor in viticulture and enology.
               These degrees equip students with the scientific foundation of
               winemaking, combined with hands-on experiential learning in the
-              vineyard and winery. PhD and postdoctoral scholars can further
+              vineyard and winery. Ph.D. and postdoctoral scholars can further
               perform research in the laboratories of our multidisciplinary V&E
               faculty.
             </p>
@@ -38,13 +38,13 @@ const SplashHistory: React.FC = () => {
                 rel="noopener noreferrer"
                 className="mt-2 inline-flex items-center space-x-2 text-white rounded-sm hover:bg-primary-light active:bg-primary-dark font-bold bg-primary py-2 px-4"
               >
-                <span>More on UC Davis V&amp;E</span>
+                <span>Learn more about the UC Davis V&amp;E program.</span>
                 <ArrowTopRightOnSquareIcon className="h-5 w-5" />
               </Link>
             </div>
           </div>
         </div>
-        <div className="flex mt-12">
+        <div className="flex flex-col mt-12">
           <div className="w-full">
             <Image
               src={"./oakville_station.jpg"}
@@ -54,13 +54,14 @@ const SplashHistory: React.FC = () => {
                 "Rows of grapevines in a vineyard stretching into the distance, with autumn-colored leaves and a mountainous landscape in the background under a clear sky. "
               }
             />
+            <p className="text-sm mt-1 opacity-75">
+              Rows of grapevines in a vineyard stretching into the distance,
+              with autumn-colored leaves and a mountainous landscape in the
+              background under a clear sky.
+              (Gregory&nbsp;Urquiaga&nbsp;/&nbsp;UC&nbsp;Davis)
+            </p>
           </div>
         </div>
-        <p className="text-sm mt-1 opacity-75">
-          Rows of grapevines in a vineyard stretching into the distance, with
-          autumn-colored leaves and a mountainous landscape in the background
-          under a clear sky. (Gregory&nbsp;Urquiaga&nbsp;/&nbsp;UC&nbsp;Davis)
-        </p>
       </div>
     </section>
   );

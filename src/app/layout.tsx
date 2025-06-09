@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords: [
     "Hilgard631",
     "wine",
-    "buy wine online",
+    "buy wines",
     "premium wine",
     "Hilgard wines",
     "vineyard",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   creator: "Hilgard631",
   publisher: "Hilgard631",
   openGraph: {
-    title: "Hilgard631 - Student made wines",
-    description: "Discover and purchase premium Hilgard631 wines online.",
+    title: "Hilgard631 - Student crafted wines",
+    description: "Discover and purchase premium Hilgard631 wines.",
     url: "https://hilgard631.org",
     siteName: "Hilgard631",
     images: [

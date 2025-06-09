@@ -88,7 +88,7 @@ export const HilgardFaqs: Faq[] = [
   {
     id: 10,
     question: "Do you accept cash or checks?",
-    answer: "No, we only accept credit or debit cards",
+    answer: "No, we only accept credit or debit cards.",
   },
   {
     id: 11,
