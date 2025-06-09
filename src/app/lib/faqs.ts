@@ -7,6 +7,12 @@ export type Faq = {
 
 export const HilgardFaqs: Faq[] = [
   {
+    id: 4,
+    question: "What is Viticulture and Enology?",
+    answer:
+      "Viticulture is the study of how grapes are grown, with a focus on creating the best conditions for healthy, high-quality fruit. Enology is the science (and art) of transforming those grapes into wine through fermentation, blending, and aging.",
+  },
+  {
     id: 1,
     question: "Where are the grapes from?",
     answer:
@@ -43,12 +49,7 @@ export const HilgardFaqs: Faq[] = [
     answer:
       "Our wines are small-batch and limited, as such, all of our wines are available exclusively for local pickup at Robert Mondavi Institute, 631 Hilgard Rd, Davis, CA 95616. ",
   },
-  {
-    id: 4,
-    question: "What is Viticulture and Enology?",
-    answer:
-      "Viticulture is the study of how grapes are grown, with a focus on creating the best conditions for healthy, high-quality fruit. Enology is the science (and art) of transforming those grapes into wine through fermentation, blending, and aging.",
-  },
+
   {
     id: 5,
     question: "Can I just show up and buy the wine?",
