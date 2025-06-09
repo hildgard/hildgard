@@ -14,7 +14,7 @@ const NavItems: React.FC = () => {
         className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
         href="/#selection"
       >
-        Selection
+        Wines
       </Link>
       <Link
         className="relative font-bold text-nav pe-2 me-2 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"

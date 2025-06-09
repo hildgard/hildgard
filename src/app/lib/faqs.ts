@@ -45,52 +45,58 @@ export const HilgardFaqs: Faq[] = [
   },
   {
     id: 4,
+    question: "What is Viticulture and Enology?",
+    answer:
+      "Viticulture is the study of how grapes are grown, with a focus on creating the best conditions for healthy, high-quality fruit. Enology is the science (and art) of transforming those grapes into wine through fermentation, blending, and aging.",
+  },
+  {
+    id: 5,
     question: "Can I just show up and buy the wine?",
     answer:
       "No, wines will only be available for purchase at specific times. Please check our website for sales dates and times.",
   },
   {
-    id: 5,
+    id: 6,
     question: "Can you ship or deliver?",
     answer: "Unfortunately, we do not currently deliver or ship our wine.",
   },
   {
-    id: 6,
+    id: 7,
     question: "Is there a limit to the amount of wine I can buy?",
     answer:
       "Yes, we have a one case limit on the purchase of our Oakville Station wine. Similarly, there is a one case limit on student-produced wines.",
   },
   {
-    id: 7,
+    id: 8,
     question: "Are there any discounts?",
     answer:
       "We do not offer discounts for multiple bottle purchases or for any other reason.",
   },
   {
-    id: 8,
+    id: 9,
     question: "What should I bring when I go to campus to buy wine?",
     answer:
       "Bring a valid credit or debit card and a valid form of identification to determine that you are 21+ years of age. We do not accept cash or checks.",
   },
   {
-    id: 9,
+    id: 10,
     question: "Do you accept cash or checks?",
     answer: "No, we only accept credit or debit cards",
   },
   {
-    id: 10,
+    id: 11,
     question: "What should I bring when I go to campus to buy wine?",
     answer:
       "Bring a valid credit or debit card and a valid form of identification to determine that you are 21+ years of age. We do not accept cash or checks.",
   },
   {
-    id: 11,
+    id: 12,
     question: "Can I place an order over the phone?",
     answer:
       "Unfortunately, we cannot reserve wines in advance, and operate on a first come - first served basis.",
   },
   {
-    id: 12,
+    id: 13,
     question: "Who can I contact?",
     answer:
       "If you have any questions, please fill out our google form and someone from our team will connect with you.",

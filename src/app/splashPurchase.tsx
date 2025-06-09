@@ -3,16 +3,15 @@ import MapEmbed from "./components/mapEmbed";
 const SplashPurchase: React.FC = () => {
   return (
     <section id="purchase" className="main-container">
-      <h2 className="pt-24 pb-8 text-2xl text-primary">
+      <h2 className="pt-24 pb-8 text-3xl text-primary">
         Purchasing Info - Local Pickup Only
       </h2>
 
       <div className="flex flex-col gap-5">
         <div className="w-full md:w-3/4 pb-8">
-          <p className="pb-8 text-lg">
-            We keep things small-batch and intentionally limited. All of our
-            wines are available exclusively for local pickup at the address
-            below. No shipping, no deliveries.
+          <p className="pb-8 text-xl">
+            All our wines are available exclusively for local pickup at the
+            address below. No shipping, no deliveries.
           </p>
           <address
             className="not-italic text-lg border-l-4 border-primary ps-4"

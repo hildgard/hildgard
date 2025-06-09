@@ -14,7 +14,7 @@ const SplashIntro: React.FC = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source
-          src="https://ucdcdn.azureedge.net/public/media/olivesequence.mp4"
+          src="https://ucdcdn.azureedge.net/public/media/olivesequence"
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -46,11 +46,8 @@ const SplashIntro: React.FC = () => {
             With over 145 years of global leadership in grape and wine
             education, the UC Davis Department of Viticulture and Enology (V&E)
             enters a new era with the launch of Hilgard631. This 501(c)(3)
-            nonprofit makes it possible for us to share our wine with the
-            general public for the benefit of student scholarship. Hilgard631
-            supports our mission of uniting a diverse community of faculty,
-            staff, and students via the knowledge and learning required to
-            produce exceptional wine.
+            nonprofit makes it possible for us to share our wine with the public
+            for the benefit of student scholarship.
           </p>
           <br />
           <NavItems />

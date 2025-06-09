@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 const Footer: React.FC = () => {
@@ -9,7 +8,7 @@ const Footer: React.FC = () => {
           <div className="w-1/3">
             <p>© Copyright 2025 All Rights Reserved</p>
           </div>
-          <div className="w-1/3 text-center">
+          <div className="w-1/3 text-end">
             <Image
               width={28}
               height={29}
@@ -17,14 +16,6 @@ const Footer: React.FC = () => {
               alt={"Pencil image of a grape leaf colored"}
               src="./grapeleaf-footer.svg"
             />
-          </div>
-          <div className="w-1/3 text-end ">
-            <Link
-              className="text-primary hover:text-primary-light hover:underline"
-              href="https://linktr.ee/ucdavisvande"
-            >
-              UC Davis V&E
-            </Link>
           </div>
         </div>
       </div>

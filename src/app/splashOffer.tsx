@@ -3,12 +3,12 @@ import Image from "next/image";
 const SplashOffer: React.FC = () => {
   return (
     <section id="selection" className="main-container">
-      <h2 className="pt-24 pb-4 text-2xl text-primary text-center">
-        Our Selection
+      <h2 className="pt-24 pb-4 text-3xl text-primary text-center">
+        The Wines
       </h2>
-      <p className="text-center text-lg w-[100%] md:w-[60%] mx-auto pb-8 text-secondary-f">
-        We carry a unique selection of 12 student made wines and two UC Davis
-        V&E label options.
+      <p className="text-center text-xl w-[100%] md:w-[60%] mx-auto pb-8 text-secondary-f">
+        Every bottle is handcrafted by Aggies—a tribute to the passion and
+        excellence that defines the University of California.
       </p>
 
       <div className="flex flex-col md:flex-row pt-8 mt-8 pb-8 mb-16 gap-16">

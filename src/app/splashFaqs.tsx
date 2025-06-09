@@ -1,12 +1,13 @@
 import Accordion from "./components/Accordion";
 import { HilgardFaqs } from "./lib/faqs";
+import parse from "html-react-parser";
 
 export default function SplashFAQ() {
   return (
     <section id="faq" className="main-container">
       <div className="flex flex-row">
         <div className="w-full">
-          <h2 className="pt-24 pb-4 text-2xl text-primary">
+          <h2 className="pt-24 pb-4 text-3xl text-primary">
             Frequently Asked Questions
           </h2>
 
@@ -14,7 +15,7 @@ export default function SplashFAQ() {
             return (
               <Accordion key={faq.id} title={faq.question}>
                 <div className="border-primary border-l-2 w-full md:w-[65%] px-4 text-md space-y-2">
-                  <div dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                  <p>{parse(faq.answer)}</p>
 
                   {faq.sources && faq.sources.length > 0 && (
                     <>

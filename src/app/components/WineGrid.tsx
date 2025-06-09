@@ -104,8 +104,8 @@ const wines = [
 export default function WineGrid() {
   return (
     <div className="main-container">
-      <h2 className="text-2xl text-primary text-center mb-6">
-        Available Student Wines
+      <h2 className="text-3xl text-primary text-center mt-4 mb-16">
+        Wines Crafted, Designed, and Bottled by V&E Students
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {wines.map((wine, index) => (
