@@ -13,13 +13,13 @@ const SplashHistory: React.FC = () => {
               Positioning Aggies as Leaders in the Wine&nbsp;Industry
             </h2>
             <p>
-              At UC Davis, students can earn a Master of Science degree,
-              Bachelor of Science degree, or a minor in viticulture and enology.
-              These degrees equip students with the scientific foundation of
-              winemaking, combined with hands-on experiential learning in the
-              vineyard and winery. Ph.D. and postdoctoral scholars can further
-              perform research in the laboratories of our multidisciplinary V&E
-              faculty.
+              At UC Davis, students can pursue a Bachelor of Science, Master of
+              Science, or a minor in Viticulture and Enology. These programs
+              combine a strong scientific foundation in grape growing and
+              winemaking with hands-on, experiential learning in vineyards and
+              wineries. Ph.D. students and postdoctoral scholars also have
+              opportunities to conduct research alongside our world-class
+              multidisciplinary V&E faculty.
             </p>
             <br />
             <p>

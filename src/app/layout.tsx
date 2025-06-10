@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "wine",
     "buy wines",
     "premium wine",
+    "California wine",
     "Hilgard wines",
     "vineyard",
     "red wine",
