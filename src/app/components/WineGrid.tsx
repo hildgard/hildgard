@@ -9,7 +9,7 @@ const wines = [
     year: 2023,
     price: 40.0,
     location: "Oakville AVA, Napa Valley",
-    image: "./productshots/ph_barrel.jpg",
+    image: "./productshots/arvore-cab.jpg",
   },
   {
     name: "Ambrosia",
