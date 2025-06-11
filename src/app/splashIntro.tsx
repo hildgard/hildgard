@@ -20,12 +20,12 @@ const SplashIntro: React.FC = () => {
         Your browser does not support the video tag.
       </video>
 
-      <div className="relative z-10 h-screen flex">
+      <div className="relative z-10 md:h-screen flex">
         <div
           id="shownav"
-          className="w-full md:w-2/3 xl:w-1/3 flex flex-col justify-between bg-primary splash-red text-white p-4 md:p-12 md:m-16"
+          className="w-full md:w-2/3 xl:w-1/3 flex flex-col bg-primary splash-red text-white p-4 md:p-12 md:m-16"
         >
-          <div>
+          <div className="mb-2">
             <Image
               width={72}
               height={73}
