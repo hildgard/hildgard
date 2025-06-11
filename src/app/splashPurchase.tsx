@@ -18,6 +18,19 @@ const SplashPurchase: React.FC = () => {
             itemScope
             itemType="https://schema.org/PostalAddress"
           >
+            <span>
+              <b>2:00pm to 4:00pm</b>
+            </span>{" "}
+            <br />
+            <span>
+              <b>June 24, 25, 26</b>
+            </span>{" "}
+            <br />
+            <span>
+              <b>July 10, 24</b>
+            </span>
+            <br />
+            <br />
             <span itemProp="name">Robert Mondavi Institute</span>
             <br />
             <span itemProp="streetAddress">631 Hilgard Rd</span>
@@ -25,10 +38,6 @@ const SplashPurchase: React.FC = () => {
             <span itemProp="addressLocality">Davis</span>,{" "}
             <span itemProp="addressRegion">CA</span>{" "}
             <span itemProp="postalCode">95616</span>
-            {/* <br />
-            <br />
-            <span>9:00am to 5:00pm</span> <br />
-            <span>Monday Through Friday</span> */}
           </address>
         </div>
         <MapEmbed />
