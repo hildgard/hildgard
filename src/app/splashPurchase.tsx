@@ -3,7 +3,7 @@ import MapEmbed from "./components/mapEmbed";
 const SplashPurchase: React.FC = () => {
   return (
     <section id="purchase" className="main-container">
-      <h2 className="pt-24 pb-8 text-3xl text-primary">
+      <h2 className="pt-24 pb-4 text-3xl text-primary">
         Purchasing Info - Local Pickup Only
       </h2>
 
