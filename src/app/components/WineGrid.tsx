@@ -111,7 +111,7 @@ export default function WineGrid() {
         {wines.map((wine, index) => (
           <div
             key={`${wine.name}-${wine.type}-${index}`}
-            className="w-full flex flex-col pb-2 border-b-2 hover:border-primary border-transparent transition duration-200"
+            className="w-full flex flex-col pb-2 border-transparent transition duration-200"
           >
             <Image
               src={wine.image}
