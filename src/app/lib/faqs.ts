@@ -53,14 +53,20 @@ export const HilgardFaqs: Faq[] = [
     id: 4,
     question: "Where can I buy the wine?",
     answer:
-      "Our wines are small-batch and limited, as such, they are available exclusively for local pickup at Robert Mondavi Institute, 631 Hilgard Rd, Davis, CA 95616",
+      "Our wines are small-batch and limited, as such, they are available exclusively for local pickup at Teaching and Research Winery, 631 Hilgard Rd, Davis, CA 95616",
   },
 
   {
     id: 5,
     question: "Can I just show up and buy the wine?",
     answer:
-      "Wines will only be available for purchase at specific times. Please check our website for sales dates and times.",
+      "Wines will only be available for purchase at specific times, please see the section on our website “Purchasing Info” for sales dates and times.",
+    sources: [
+      {
+        label: "Purchasing Info",
+        url: "/#purchase",
+      },
+    ],
   },
   {
     id: 6,

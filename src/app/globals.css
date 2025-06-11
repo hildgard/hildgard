@@ -93,3 +93,6 @@ p {
   overflow: hidden;
   height: 100%;
 }
+.h-full-dvh {
+  height: 100dvh;
+}

@@ -31,7 +31,7 @@ const SplashPurchase: React.FC = () => {
             </span>
             <br />
             <br />
-            <span itemProp="name">Robert Mondavi Institute</span>
+            <span itemProp="name">Teaching and Research Winery</span>
             <br />
             <span itemProp="streetAddress">631 Hilgard Rd</span>
             <br />

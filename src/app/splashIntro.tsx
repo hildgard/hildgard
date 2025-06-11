@@ -3,7 +3,7 @@ import NavItems from "./components/navItems";
 
 const SplashIntro: React.FC = () => {
   return (
-    <section id="intro" className="relative h-screen overflow-hidden">
+    <section id="intro" className="relative h-full-dvh overflow-hidden">
       <video
         autoPlay
         muted
